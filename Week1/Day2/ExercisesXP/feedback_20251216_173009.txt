@@ -1,0 +1,11 @@
+URL: https://github.com/ethanchel/DI172/blob/main/Week1/Day2/ExercisesXP/ExercicesXP.py
+suggestions for improvement:
+- In Exercise 2, the power operator in Python is `**`, not `^`.
+- In Exercise 3, `"3" > 3` throws a TypeError because you can't directly compare a string to an integer in Python 3. The code should have predicted a TypeError.
+- In Exercise 6, the problem did not specify that the code needs to print anything if a is not bigger than b.
+Brief justification:
+- correctness: The code addresses almost all the exercises correctly. Exercise 1, prints hello world four times. Exercise 2 calculates a mathematical expression, however uses the wrong notation for power. Exercise 3 has most of the comparison output correct, apart from the TypeError. Exercise 4, 5, 6,7,8 and 9 are all correct. Therefore, I give a 90% correctness score.
+- readability: The code is well-formatted and easy to understand, with clear variable names and comments.
+- performance: The code is efficient and performs the tasks without any unnecessary overhead.
+- security: The code doesn't involve any external inputs or sensitive operations, so there are no security concerns.
+
