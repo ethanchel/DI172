@@ -1,0 +1,9 @@
+URL: https://github.com/ethanchel/DI172/blob/main/Week1/Day4/ExercisesXP/Mandatory1.py
+suggestions for improvement:
+- Consider adding more comments to explain complex logic for enhanced readability.
+Brief justification:
+- correctness: The code accurately addresses all exercises in the chapter content, demonstrating proficiency in sets, tuples, lists, loops, and conditionals. Each exercise is implemented correctly and fulfills the specified requirements.
+- readability: The code is well-structured and generally easy to follow, with clear variable names and comments. Minor improvements could be made by adding more comments to explain the purpose of certain code blocks.
+- performance: The code is efficient and performs well for the given exercises, with no unnecessary overhead or inefficient operations. The time complexity of the operations is generally optimal for the problem sizes.
+- security: The code uses safe practices and does not expose any vulnerabilities. User inputs are validated where necessary to prevent errors.
+
