@@ -1,0 +1,10 @@
+URL: https://github.com/ethanchel/DI172/blob/main/Week1/Day4/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- Consider adding comments to explain the logic behind each step in Challenge 2 for improved readability.
+- While the code functions correctly, you could explore alternative approaches for removing consecutive duplicates in Challenge 2, such as using regular expressions, for potential performance improvements.
+Brief justification:
+- correctness: The code accurately solves both Challenge 1 (generating multiples) and Challenge 2 (removing consecutive duplicates), precisely as described in the problem statements. It uses the specified input methods, loop structures, list creation, and string manipulation techniques.
+- readability: The code is well-structured and easy to understand. Variable names are descriptive, and the logic is straightforward. However, more comments could enhance readability, particularly in the second challenge.
+- performance: The code's performance is efficient for the given task. The list comprehension in Challenge 1 is concise, and the loop in Challenge 2 iterates only once through the string. Using regular expressions could potentially make the code faster, especially for very long strings.
+- security: The code is reasonably secure. It uses `int()` to convert user input in Challenge 1 to integers, preventing potential injection attacks. In Challenge 2, there is no immediate security concern, but proper input sanitization is always good practice to prevent unexpected behavior.
+
