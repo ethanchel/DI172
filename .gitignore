@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual envs
+.venv/
+venv/
+env/
+lib/
+bin/
+pyvenv.cfg
+
+# VS Code
+.vscode/
+
+# IDE
+.idea/

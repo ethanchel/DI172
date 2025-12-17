@@ -24,7 +24,7 @@ print(f"I have an {computer_brand} computer.")
 
 name = "Ethan"
 Age = 26
-shoe_size = 44  
+shoe_size = 44
 info = f"Hello, my name is {name}, I am {Age} years old and my shoe size is {shoe_size}."
 print(info)
 
@@ -39,7 +39,7 @@ b = 10
 if a > b:
     print("Hello World")
 else:
-    print("Goodbye")    
+    print("Goodbye")
 
 #7 Write code that asks the user for a number and determines whether this number is odd or even.
 
@@ -48,7 +48,7 @@ user_number = int(input("Please enter a number: "))
 if user_number % 2 == 0:
     print("The number is even.")
 else:
-    print("The number is odd.") 
+    print("The number is odd.")
 
 #8 Write code that asks the user for their name and determines whether or not you have the same name. Print out a funny message based on the outcome.
 

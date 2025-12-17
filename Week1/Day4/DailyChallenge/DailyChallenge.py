@@ -1,4 +1,4 @@
-# # Challenge 1 
+# # Challenge 1
 # 1. Ask the user for two inputs:
 # A number (integer).
 # A length (integer).
@@ -23,5 +23,5 @@ if user_string:
     quoted_string = [user_string[0]]
     for char in user_string[1:]:
         if char != quoted_string[-1]:
-            quoted_string.append(char)  
+            quoted_string.append(char)
     modified_string = "".join(quoted_string)
