@@ -1,0 +1,25 @@
+default_stages: [pre-commit]
+# Exclude vendored or environment folders from hooks
+exclude: ^(lib/|bin/|Week.*/bin/|Week.*/lib/)
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-merge-conflict
+      - id: mixed-line-ending
+      - id: check-yaml
+      - id: check-added-large-files
+        args: ["--maxkb=5000"]
+      - id: detect-private-key
+
+  - repo: local
+    hooks:
+      - id: clean-macos-and-pyc
+        name: Clean macOS and pyc artifacts
+        entry: bash scripts/cleanup-index.sh
+        language: system
+        pass_filenames: false
+        stages: [pre-commit]
