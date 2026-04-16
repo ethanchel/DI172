@@ -25,3 +25,4 @@ dist/
 __pycache__/
 Week8/Day4/DailyChallenge/global_power_plant_database.csv
 Week12/Day2/ExercsieXp/household_power_consumption.txt
+*.csv
